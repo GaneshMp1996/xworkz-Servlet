@@ -31,7 +31,7 @@ public class SamsungFridgeServlet extends HttpServlet {
 		System.out.println("<html>");
 		System.out.println("<body>");
 		System.out.println("<h1>");
-		System.out.println("Save is Sucess");
+		System.out.println("Save is Sucess for "+Brand);
 		System.out.println("</h1>");
 		System.out.println("</body>");
 		System.out.println("</html>");
