@@ -16,13 +16,13 @@ public class GymServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("involked service From gym Servlet");
-		
+
 		String gymName=request.getParameter("gymName");
 		System.out.println("Gym name ".concat(gymName));
 
 		String location = request.getParameter("location");
 		System.out.println("Gym loaction " + (location));
-		
+
 		String fees = request.getParameter("fees");
 		System.out.println("Gym fee ".concat(fees));
 
@@ -58,5 +58,5 @@ public class GymServlet extends HttpServlet {
 		out.print("</body>");
 		out.print("</html>");
 	}
-	}
+}
 
