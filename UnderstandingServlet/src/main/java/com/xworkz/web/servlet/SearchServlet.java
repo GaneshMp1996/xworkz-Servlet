@@ -23,7 +23,7 @@ public class SearchServlet extends HttpServlet {
 		htmlWriter.print("<h1 align='center';>");
 		htmlWriter.print("This is my Search Link");
 		htmlWriter.print("</h1>");
-		htmlWriter.print("<h3><a href=http://localhost:8080/UnderstandingServlet/>Home</a></h3>");
+		htmlWriter.print("<h3><a href=http://localhost:8002/UnderstandingServlet/>Home</a></h3>");
 		htmlWriter.print("<footer style='text-align:center;margin-top:35%;'>");
 		htmlWriter.print("<h2>This is footer<h2>");
 		htmlWriter.print("</footer>");
